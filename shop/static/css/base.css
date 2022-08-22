@@ -12,16 +12,16 @@ h1, h2, h3, h4, h5 , h6 {
 
 a {
     text-decoration:none;
-    color:#5993bb;
+    color:green;
 }
 
 a:hover {
-    color:#77b6e2;
+    color:#92bc76;
 }
 
 a.button, input[type="submit"] {
-    color:#fff;
-    background:#5993bb;
+    color:white;
+    background:#087e14;
     border-radius:4px;
     padding:10px 20px;
     font-size:14px;
@@ -63,7 +63,7 @@ tbody tr.subtotal {
 }
 
 thead th, tbody tr.total {
-    background:#5993bb;
+    background:#087e14;
     color:#fff;
     font-weight:bold;
 }
@@ -115,19 +115,29 @@ ul.errorlist {
    padding:0;
 }
 
+nav {
+	display: center;
+}
+
+
+#logo {
+	background-color: #087e14;
+}
 
 #header {
+	background-color: #087e14;
     padding:10px 100px;
     font-size:18px;
     overflow:auto;
 }
 
 #subheader {
-    background:#ececec;
+    
     color:#444;
     padding:15px 100px;
     overflow:auto;
 }
+
 
 #header .logo {
     font-family: 'Ubuntu', sans-serif;
@@ -169,7 +179,7 @@ ul.errorlist {
 }
 
 #sidebar ul li.selected {
-    background:#5993bb;
+    background:#087e14;
     border-radius:4px;
 }
 
@@ -182,6 +192,10 @@ ul.errorlist {
     width: 96%;
     margin-right:-220px;
     overflow:hidden;
+}
+
+li button {
+	background:#087e14;
 }
 
 .product-list .item {
@@ -231,11 +245,11 @@ ul.errorlist {
     background:#efefef;
     padding:10px 20px;
     color:#333;
-    border-bottom:4px solid #5993bb;
+    border-bottom:4px solid #087e14;
 }
 
 .order-info h3 {
-    color:#5993bb;
+    color:black;
 }
 
 .order-info ul li {
@@ -325,6 +339,6 @@ form div.field {
     padding:6px 12px;
     border:0;
     background:#efefef;
-    color:#666;
+    
     border-radius:4px;
 }

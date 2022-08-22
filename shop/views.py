@@ -30,3 +30,22 @@ def product_detail(request, id, slug):
                    'cart_product_form': cart_product_form
                    })
 
+def info(request):
+    
+    return render(request, 'shop/info.html', {})
+
+def kontakt(request):
+    
+    return render(request, 'shop/kontakt.html', {})
+
+def krajowa(request):
+    
+    return render(request, 'shop/krajowa.html', {})
+
+def zagraniczna(request):
+    
+    return render(request, 'shop/zagraniczna.html', {})
+
+def odbior(request):
+    
+    return render(request, 'shop/odbior.html', {})
